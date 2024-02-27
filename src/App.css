@@ -1,0 +1,53 @@
+.App{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: grey;
+}
+
+.generator{
+  
+  background-image: linear-gradient(-225deg, #20E2D7 0%, #F9FEA5 100%);
+  border-radius: 10px;
+  box-shadow: 13px 18px 6px 4px rgba(0, 0, 255, .2);
+    padding: 30px;
+}
+.generator__header{
+  text-align: center;
+  color: rgb(1, 20, 1);
+  margin-bottom: 20px;
+}
+.generator__password{
+  background-color:#fceeee;
+  padding: 13px 10px;
+  color: #020101;
+  margin-bottom: 15px;
+  height: 46px;
+  display: flex;
+  justify-content: space-between;
+}
+.copy__btn{
+  color: #fff;
+  background: #000000;
+  border: none;
+  cursor: pointer;
+}
+.generator__btn{
+  background: #000000;
+  border: none;
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  color: #fff;
+  border-radius: 30px;
+  font-size: 17px;
+  cursor: pointer;
+
+}
+.form-group{
+  display: flex;
+  justify-content: space-between;
+  color: gre;
+  margin-bottom: 15px;
+}
